@@ -4,7 +4,7 @@ body-revive website is a yoga studio website that offers online Hatha yoga class
 
 The site is targeted at people with busy schedule as well as beginners curious about Yoga.
 
-The site will focus on providing information to beginners interested in knowing more about yoga and online classes for users to sign-up.
+The site will focus on providing information to users interested in knowing more about yoga and online classes for them to sign-up.
 
 ## Table of Contents
   * [Project](#project)
@@ -21,7 +21,7 @@ They offer a 30-day yoga schedule class, so users always know what to work on ea
 
 ### External Users Goals
 
-- Users of the site are interested in learning and reading about ways relieving stress and maintaining their well-being.
+- Users of the site are interested in improving thier well-being and flexibility.
 - Easily find information about the courses as well as the price
 - Know about the techer and view short videos of the teacher practising Yoga
 - Sign up for Yoga classes.
@@ -37,11 +37,11 @@ They offer a 30-day yoga schedule class, so users always know what to work on ea
 ### Potential Features to Use
 
 - Teacher's profile
-- classes offered and Course discount information (if available)
+- classes offered, price and Course discount information (if available)
 - Contact form
 - Social media links
 - Testimonials
-- Images and videos
+- multimedia and information on Yoga
 
 ### Wireframes
 
