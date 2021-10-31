@@ -45,4 +45,4 @@ They offer a 30-day yoga schedule class, so users always know what to work on ea
 
 ### Wireframes
 
-Mockups of the design was done using Balsamiq.
+[Click here to view wireframes for this project.](assets/wireframes/br_wireframe.pdf)
