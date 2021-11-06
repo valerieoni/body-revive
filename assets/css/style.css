@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat+Alternates&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -9,4 +9,32 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2, h3, h4, #menu li{
+    font-family: 'Lora', serif;
+}
+
+#logo {
+    font-family: 'Montserrat', sans-serif;
+    color: #252522;
+    font-size: 64px;
+    float: left;
+}
+
+/** header navigation links **/
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    float: right;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    display: inline;
 }
