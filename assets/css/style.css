@@ -26,10 +26,19 @@ h1, h2, h3, h4, #menu li{
 }
 
 /** header navigation links **/
+
+a {
+    text-decoration: none;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
     float: right;
+}
+
+#menu, #logo {
+    line-height: 100px;
 }
 
 #menu li {
@@ -37,4 +46,23 @@ h1, h2, h3, h4, #menu li{
     margin-right: 2rem;
     text-transform: uppercase;
     display: inline;
+}
+
+#menu a, #menu a:visited{
+    color: inherit;
+}
+
+#menu a:hover, .active{
+    font-weight: 600;
+}
+
+.active {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/** hero image **/
+#hero-image {
+    height: 960px;
+    width: 100%;
+    background: url('../images/women-practicing.jpg') no-repeat center center;
 }
