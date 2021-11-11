@@ -94,3 +94,83 @@ a {
 .right-margin {
     margin-right: 20px;
 }
+
+/*** carousel ***/
+.carousel {
+    margin: 20px auto;
+    overflow: hidden;
+    background: rgba(0, 128, 0, 0.3);
+    opacity: .9;
+    text-align: center;
+  }
+  
+  .slides {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border: none;
+  }
+  
+  .slides::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slides-item {
+    display: flex;
+    flex-shrink: 0;
+    font-size: 100px;
+    justify-content: center;
+    position: relative;
+    scroll-snap-align: start;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform 10s;
+    width: 100%;
+  }
+  
+  .slider-nav {
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 50%;
+    color: #000;
+    display: inline-flex;
+    height: 1.5rem;
+    justify-content: center;
+    padding: .5rem;
+    position: relative;
+    text-decoration: none;
+    width: 1.5rem;
+  }
+  
+  .slider-nav:hover,
+  .slider-nav:active {
+    background-color: #000;
+    color: #fff;
+  }
+ 
+  .carousel-skip-link {
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+  }
+  
+  .carousel-skip-link:focus {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    font-size: 30px;
+    height: 680px;
+    justify-content: center;
+    opacity: .8;
+    text-decoration: none;
+    width: 100%;
+    z-index: 1;
+  }
+  
