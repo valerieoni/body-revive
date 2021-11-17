@@ -115,21 +115,27 @@ a {
     margin-right: 20px;
 }
 
-  /*** footer ***/
-  footer {
-    height: 100px;
-  }
+/** carousel **/
+.carousel {
+    background-color: #0468bf7c;
+}
 
-  .social-networks {
+/** footer section **/
+footer {
+    margin-top: 50px;
     text-align: center;
-  }
+    font-size: 3rem;
+}
 
-  .social-networks > li {
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
     display: inline-block;
-  }
+    margin-right: 50px;
+}
 
-  .social-networks i {
-    font-size: 1.5rem;
-    color: #3a3a3a;
-    padding:1.5rem;
-  }
+footer a:link, footer a:visited, footer a:active {
+    color: #00b5ce;
+}
