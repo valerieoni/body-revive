@@ -217,7 +217,7 @@ a {
 
 #signup-section {
     clear: left;
-    background: #d9c6b7 url('../images/pexels-karolina-grabowska-4498177.jpg') no-repeat left bottom;
+    background: url('../images/pexels-karolina-grabowska-4498195.jpg') no-repeat left bottom, url('../images/contact-bg.png') no-repeat center center /cover;
     height: 900px;
 }
 
