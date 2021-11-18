@@ -9,9 +9,13 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #221f20;
     background-color: #f4f5f6;
+}
+
+.center {
+    text-align: center;
 }
 
 /* headings and logo */
@@ -23,6 +27,11 @@ body {
 
 h1, h2, h3, h4, #menu li{
     font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4{
+    letter-spacing: 0.15em;
+    line-height: 2em;
 }
 
 #logo {
@@ -73,11 +82,12 @@ a {
 #hero-outer {
     clear: both;
     height: 100%;
+    background-color: #383838;
 }
 
 #hero-image {
     height: 100%;
-    background: url('../images/pexels-marcus-aurelius.jpg') no-repeat center center;
+    background: url('../images/pexels-marcus-aurelius.jpg') no-repeat center center /cover;
 }
 
 /** Club Ethos **/
@@ -118,11 +128,10 @@ a {
     margin-right: 20px;
 }
 
-/** carousel **/
+/** testimonial and carousel **/
 .testimonial {
     padding: 5px 0;
 }
-
 
 .round-thumbnail {
     border-radius: 50%;
@@ -132,7 +141,7 @@ a {
 
 .carousel {
     width: 40%;
-    margin: 0 auto;
+    margin: 15px auto;
     background-color: #ffffff;
     border-radius: 5px;
     padding: 84px 120px;
@@ -141,12 +150,11 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+    gap: 10px;
 }
 
 .testimonial-text {
     font-size: 1.2rem;
-    font-weight: 500;
     line-height: 1.5;
     margin-bottom: 20px;
     text-align: justify;
@@ -159,13 +167,17 @@ a {
 .testimonial-author {
     font-size: 0.9rem;
     text-align: right;
-    color: royalblue;
+    color: #0468bf;
     font-weight: 600;
     letter-spacing: 0.1em;
 }
 
+.star-checked {
+    color: orange;
+}
+
 .testimonial-btn {
-    background-color: #fff;
+    background-color: #ffffff;
     border:none;
     height: 40px;
     width: 40px;
@@ -191,7 +203,7 @@ a {
 .btn-icon {
     height: 24px;
     width: 24px;
-    stroke: #000;
+    stroke: #221f20;
 }
 
 /** footer section **/
