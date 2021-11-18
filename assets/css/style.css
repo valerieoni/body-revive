@@ -18,6 +18,10 @@ body {
     text-align: center;
 }
 
+.clear-float {
+    clear: both;
+}
+
 /* headings and logo */
 #header-section {
     display: flex;
@@ -82,6 +86,8 @@ a {
 #hero-outer {
     clear: both;
     height: 100%;
+    overflow: hidden;
+    position: relative;
     background-color: #383838;
 }
 
@@ -90,8 +96,9 @@ a {
     background: url('../images/pexels-marcus-aurelius.jpg') no-repeat center center /cover;
 }
 
-/** Club Ethos **/
+/** Club Ethos and cards **/
 .ethos {
+    clear: both;
     display: flex;
     margin: 100px auto;
     justify-content: center;
@@ -205,10 +212,69 @@ a {
     width: 24px;
     stroke: #221f20;
 }
+/** CONTACT | SIGNUP SECTION **/
+/* Form */
 
-/** footer section **/
+#signup-section {
+    clear: left;
+    background: #d9c6b7 url('../images/pexels-karolina-grabowska-4498177.jpg') no-repeat left bottom;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 0 0 20px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    right: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    width: 100%;
+    min-height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.flex-2-column {
+    display: flex;
+    gap: 10px;
+}
+
+.text-input:hover {
+    border-color: #EF743C;
+}
+
+.join-button {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-align: center;
+    
+    background-color: #EF743C;
+    color: #ffffff;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #EF743C;
+}
+
+/** FOOTER **/
 footer {
-    margin-top: 50px;
     background-color: #383838;
     text-align: center;
     font-size: 2rem;
@@ -225,5 +291,5 @@ footer ul li {
 }
 
 footer a:link, footer a:visited, footer a:active {
-    color: #ec7545
+    color: #EF743C
 }

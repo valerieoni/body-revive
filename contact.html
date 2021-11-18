@@ -34,11 +34,17 @@
             </ul>
         </nav>
     </header>
-    <section class="ethos">
-       ethos here
-    </section>
-    <section>
-        About Annette
+    <section id="signup-section">
+        <form action="#" method="post" class="signup-form">
+            <h2>Contact Us!</h2>
+            <div class="flex-2-column" aria-label="Full Name">
+                <input type="text" id="fname" name="first_name" aria-label="First Name" placeholder="First Name*" class="text-input" required>
+                <input type="text" id="lname" name="last_name" aria-label="Last Name" placeholder="Last Name" class="text-input" required>
+            </div>
+            <input type="email" id="email" name="email_address" aria-label="Email" placeholder="Email*" class="text-input" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message*" class="text-input" ></textarea>
+            <input class="join-button" type="submit" value="Contact Us!">
+        </form>
     </section>
     <footer>
         <ul>
