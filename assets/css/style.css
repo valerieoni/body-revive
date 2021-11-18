@@ -89,8 +89,8 @@ a {
 
 .card {
     background: #fff;
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     text-align: center;
     border-radius: 2%;
     box-shadow:  0 2px 4px 0 rgba(0, 0, 0, 0.19), 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
@@ -99,6 +99,7 @@ a {
 .card img {
     width: 100%;
     margin-bottom: 20px;
+    border-radius: 2% 2% 0 0;
 }
 
 .card h3 {
@@ -109,6 +110,7 @@ a {
 .card p {
     font-weight: 600;
     line-height: 1.5em;
+    padding: 20px;
 }
 
 .right-margin {
@@ -116,8 +118,80 @@ a {
 }
 
 /** carousel **/
+.testimonial {
+    background-color: #0468bf;
+    padding: 5px 0;
+}
+
+
+.round-thumbnail {
+    border-radius: 50%;
+    height: 100px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
 .carousel {
-    background-color: #0468bf7c;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 84px 120px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.testimonial-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.testimonial-text i.fas {
+    font-size: .9rem;
+}
+
+.testimonial-author {
+    font-size: 0.9rem;
+    text-align: right;
+    color: royalblue;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.testimonial-btn {
+    background-color: #fff;
+    border:none;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-left {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.btn-right {
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.btn-icon {
+    height: 24px;
+    width: 24px;
+    stroke: #000;
 }
 
 /** footer section **/
