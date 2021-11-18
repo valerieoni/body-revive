@@ -138,6 +138,7 @@ a {
 /** testimonial and carousel **/
 .testimonial {
     padding: 5px 0;
+    margin-bottom: 50px;
 }
 
 .round-thumbnail {
@@ -211,6 +212,47 @@ a {
     height: 24px;
     width: 24px;
     stroke: #221f20;
+}
+
+/*******************
+    ABOUT SECTION 
+ *******************/
+.about-section {
+    clear: both;
+    height: 700px;
+}
+
+.about-image {
+    height: 100%;
+    background: url('../images/pexels-thirdman-6958387.jpg') no-repeat top left /cover;
+    position: relative;
+}
+
+.about-text {
+    width: 600px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    right: 5%;
+    top: 45%;
+    text-align:justify;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.about-content {
+   width: 80%;
+   margin: 60px auto;
+   line-height: 2em;
+}
+
+.about-content h2 {
+    text-align: center;
+}
+
+.about-content p {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 /** CONTACT | SIGNUP SECTION **/
 /* Form */
