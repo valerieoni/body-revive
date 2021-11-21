@@ -7,15 +7,16 @@
     <meta name="keywords" content="yoga, yoga practice, preston, hatha, online yoga">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
     <title>Body Revive Yoga Club</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <a href="index.html">
-            <h1 id="logo">Body Revive</h1>
+            <h1 class="logo">Body Revive</h1>
         </a>
-        <nav id="menu">
-            <ul>
+        <nav class="main-menu" aria-label="Main menu">
+            <ul class="main-menu-list">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -33,6 +34,14 @@
                 </li>
             </ul>
         </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav"
+            name="menu-outline">
+            </ion-icon>
+            <ion-icon class="icon-mobile-nav"
+            name="close-outline">
+            </ion-icon>
+        </button>
     </header>
     <section id="signup-section">
         <form action="#" method="post" class="signup-form">
@@ -62,7 +71,14 @@
             </li>
         </ul>
     </footer>
-    <!-- font awesome script -->
-    <script src="https://kit.fontawesome.com/b95ef9c4da.js" crossorigin="anonymous"></script>
+     <!-- font awesome script -->
+     <script src="https://kit.fontawesome.com/b95ef9c4da.js" crossorigin="anonymous"></script>
+
+     <!-- Ion Icons script -->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ 
+     <!-- Hamburger Navigation menu script -->
+     <script src="assets/js/script.js"></script>
 </body>
 </html>

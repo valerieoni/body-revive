@@ -7,38 +7,46 @@
     <meta name="keywords" content="yoga, yoga practice, preston, hatha, online yoga">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
     <title>Body Revive Yoga Club</title>
 </head>
 <body>
-    <div id="header-section">
-        <header>
-            <a href="index.html">
-                <h1 id="logo">Body Revive</h1>
-            </a>
-            <nav id="menu">
-                <ul>
-                    <li>
-                        <a href="index.html" class="active">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="classes.html">Classes</a>
-                    </li>
-                    <li>
-                        <a href="resources.html">Resources</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <div id="hero-outer">
-           <div id="hero-image"></div>
-        </div>
-    </div>
+    <header class="header">
+        <a href="index.html">
+            <h1 class="logo">Body Revive</h1>
+        </a>
+        <nav class="main-menu" aria-label="Main menu">
+            <ul class="main-menu-list">
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="classes.html">Classes</a>
+                </li>
+                <li>
+                    <a href="resources.html">Resources</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav"
+            name="menu-outline">
+            </ion-icon>
+            <ion-icon class="icon-mobile-nav"
+            name="close-outline">
+            </ion-icon>
+        </button>
+    </header>
+   <main>
+    <section class="hero-outer">
+        <div class="hero-image"></div>
+    </section>
     <section class="ethos">
         <div class="card">
             <img class="ethos-card-img" src="assets/images/yoga_mum.jpg" alt="mum practicing yoga with her baby">
@@ -93,6 +101,7 @@
             </button>
         </div>
     </section>
+   </main>
     <footer>
         <ul>
             <li>
@@ -111,5 +120,12 @@
     </footer>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/b95ef9c4da.js" crossorigin="anonymous"></script>
+
+    <!-- Ion Icons script -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Hamburger Navigation menu script -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

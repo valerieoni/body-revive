@@ -1,0 +1,92 @@
+
+
+  /**************************************
+           MOBILE DEVICE
+   ***************************************/
+
+   @media (max-width: 59em) {
+    
+    /** Mobile Navigation**/
+      .btn-mobile-nav {
+          display: block;
+      }
+
+      .main-menu {
+          background-color: rgba(245, 245, 245, 0.9);
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100vh;
+          transform: translate(100%);
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.8s ease-in;
+          
+          opacity: 0;
+          pointer-events: none;
+
+          /* hide from screen readers */
+          visibility: hidden;
+      }
+
+      .nav-open .main-menu {
+       opacity: 1;
+       pointer-events: auto;
+       visibility: visible;
+       transform: translate(0);
+      }
+
+      .nav-open .icon-mobile-nav[name="close-outline"] {
+           display: block;
+       }
+
+       .nav-open .icon-mobile-nav[name="menu-outline"] {
+           display: none;
+       }
+
+      .main-menu-list {
+          flex-direction: column;
+          gap: 4.8rem;
+      }
+
+      .main-menu a:link {
+           font-size: 2.4rem;
+       }   
+  }
+
+  /********************************************
+    BELOW 900px screen
+  *******************************************/
+  @media (max-width: 900px) {
+    .ethos {
+        flex-direction: column;
+        margin: 100px auto;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .card {
+        width: 400px;
+        height: 500px;
+    }
+
+    .testimonial {
+        padding: 5px 0;
+        margin-bottom: 50px;
+    }
+    
+    .round-thumbnail {
+        border-radius: 50%;
+        height: 100px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    }
+    
+    .carousel {
+        width: 75%;
+        padding: 64px 42px;
+    }
+}
