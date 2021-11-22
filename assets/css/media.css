@@ -5,14 +5,20 @@
    ***************************************/
 
    @media (max-width: 59em) {
-    
+    /*** header ***/
+
+    .logo {
+        font-size: 2rem;
+    }
+
+
     /** Mobile Navigation**/
       .btn-mobile-nav {
           display: block;
       }
 
       .main-menu {
-          background-color: rgba(245, 245, 245, 0.9);
+          background-color: rgb(255, 255, 255, .9);
           position: absolute;
           top: 0;
           left: 0;
@@ -23,7 +29,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          transition: all 0.8s ease-in;
+          transition: all 0.5;
           
           opacity: 0;
           pointer-events: none;
@@ -53,8 +59,21 @@
       }
 
       .main-menu a:link {
-           font-size: 2.4rem;
-       }   
+           font-size: 2rem;
+       }
+
+       /*** contact ***/
+       .signup-section {
+            background: none;
+        }
+
+        .signup-form {
+            position: static;
+            margin: 20px 30px;
+            background-color: rgba(60, 60, 60, 0.7);
+            padding: 30px;
+        }
+        
   }
 
   /********************************************
@@ -89,4 +108,9 @@
         width: 75%;
         padding: 64px 42px;
     }
+
+  
+    /*** contact page ***/
+
+
 }

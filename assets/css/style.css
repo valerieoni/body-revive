@@ -12,6 +12,9 @@ body {
     font-weight: 400;
     color: #221f20;
     background-color: #f4f5f6;
+}
+
+html, body {
     overflow-x: hidden;
 }
 
@@ -38,6 +41,7 @@ h1, h2, h3, h4{
     color: #252522;
     font-size: 3rem;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -63,6 +67,10 @@ a:link {
     display: flex;
     align-items: center;
     gap: 1.6rem;
+}
+
+.main-menu-list a:link {
+    font-size: 1.2rem;
 }
 
 .main-menu a:link, .main-menu a:visited{
@@ -110,12 +118,12 @@ a:link {
     display: flex;
     margin: 100px auto;
     justify-content: center;
-    gap: 50px;
+    gap: 64px;
 }
 
 .card {
     background: #fff;
-    width: 300px;
+    width: 320px;
     height: 400px;
     text-align: center;
     border-radius: 2%;
@@ -226,8 +234,7 @@ a:link {
     ABOUT SECTION 
  *******************/
 .about-section {
-    clear: both;
-    height: 700px;
+    height: 90vh;
 }
 
 .about-image {
@@ -239,13 +246,13 @@ a:link {
 .about-text {
     width: 600px;
     color: #000;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     right: 5%;
     top: 45%;
     text-align:justify;
     border-radius: 4px;
-    padding: 5px 10px;
+    padding: 5px 20px;
 }
 
 .about-content {
@@ -268,10 +275,9 @@ a:link {
 ***********************************/
 /* Form */
 
-#signup-section {
-    clear: left;
-    background: url('../images/pexels-karolina-grabowska-4498195.jpg') no-repeat left bottom, url('../images/contact-bg.png') no-repeat center center /cover;
-    height: 900px;
+.signup-section {
+    background: url('../images/pexels-karolina-grabowska-4498195.jpg') no-repeat left top, url('../images/contact-bg.png') no-repeat center center /cover;
+    height: 96vh;
 }
 
 .signup-form {
