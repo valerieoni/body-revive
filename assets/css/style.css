@@ -27,8 +27,37 @@ h1, h2, h3, h4{
     line-height: 2em;
 }
 
+p {
+    font-size: 1.2rem;
+    line-height: 2em;
+}
+
+.heading-tertiary {
+    font-weight: 600;
+}
+
 .center {
     text-align: center;
+}
+
+.container {
+    max-width: 80%;
+    padding: 0 4rem;
+    margin: 3.2rem auto;
+}
+
+.grid {
+    display: grid;
+    row-gap: 64px;
+    column-gap: 30px;
+  }
+
+.grid-2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
@@ -179,7 +208,6 @@ a:link {
 
 .testimonial-text {
     font-size: 1.2rem;
-    line-height: 1.5;
     margin-bottom: 20px;
     text-align: justify;
 }
@@ -314,22 +342,62 @@ a:link {
 
 .join-button {
     margin-top: 20px;
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 1.25px;
+    text-transform: uppercase;  
+    letter-spacing: .2em;
     border: 2px solid transparent;
     border-radius: 4px;
-    padding: 10px 32px;
     text-align: center;
-    
     background-color: #EF743C;
     color: #ffffff;
     display: block;
 }
 
+.large-button {
+    font-size: 14px;
+    padding: 10px 32px;
+}
+
+.small-button {
+    width: 6rem;
+    padding: .3rem .6rem;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+}
+
 .join-button:hover {
     background-color: #fafafa;
     color: #EF743C;
+}
+
+
+/***********************
+    CLASSES SECTION
+***********************/
+
+.yoga-text {
+    width: 60%;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.yoga-text p {
+    margin-bottom: 1.2rem;
+}
+
+.yoga-classes-text h2 {
+    color: #0468bf;
+    text-align: center;
+}
+
+.class-schedule h3,
+.class-schedule p {
+    padding-right: 9rem;
+}
+
+.class-schedule p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5em;
 }
 
 /** FOOTER **/
