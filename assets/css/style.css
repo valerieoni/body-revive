@@ -99,7 +99,8 @@ a:link {
 }
 
 .main-menu-list a:link {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
 }
 
 .main-menu a:link, .main-menu a:visited{
@@ -187,12 +188,19 @@ a:link {
     cursor: pointer;
 }
 
-/** Club Ethos and cards **/
+/*******************************
+     CLUB ETHOS AND CARD 
+********************************/
+.ethos-section, .testimonial {
+    margin-top: 6.25rem;
+}
+
 .ethos {
     display: flex;
-    margin: 100px auto;
+    margin: 2rem auto;
     justify-content: center;
-    gap: 64px;
+    align-items: center;
+    gap: 4rem;
 }
 
 .card {
@@ -303,9 +311,9 @@ a:link {
     stroke: #221f20;
 }
 
-/*******************
-    ABOUT SECTION 
- *******************/
+/***************************
+        ABOUT SECTION 
+ ***************************/
 .about-section {
     height: 90vh;
 }
@@ -314,12 +322,12 @@ a:link {
     height: 100%;
     background: url('../images/pexels-thirdman-6958387.jpg') no-repeat top left /cover;
     position: relative;
+    filter: brightness(70%);
 }
 
 .about-text {
     width: 600px;
-    color: #000;
-    background-color: rgba(255, 255, 255, 0.9);
+    color: #fff;
     position: absolute;
     right: 5%;
     top: 45%;
