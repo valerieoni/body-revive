@@ -4,7 +4,7 @@
            MOBILE DEVICE
    ***************************************/
 
-   @media (max-width: 59em) {
+   @media (max-width: 844px) {
     /*** header ***/
 
     .logo {
@@ -61,6 +61,15 @@
       .main-menu a:link {
            font-size: 2rem;
        }
+
+       /**** hero section ***/
+       .hero-content {
+        transform: scale(0.8);
+        width:80%;
+        margin-top: 20%;
+        margin-left: 3%;
+        text-align: center;
+    }
 
        /*** contact ***/
        .signup-section {

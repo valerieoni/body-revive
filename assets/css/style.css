@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 * {
@@ -18,8 +18,8 @@ html, body {
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, a {
-    font-family: 'Lora', serif;
+h1, h2, h3, h4, a:link {
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4{
@@ -76,7 +76,7 @@ p {
     justify-content: space-between;
     align-items: center;
     height: 4.8rem;
-    padding: 0 32px;
+    padding: 0 2rem;
     position: relative;
     z-index: 1;
 }
@@ -130,16 +130,61 @@ a:link {
     HERO SECTION
 ***************************/
 /** hero image **/
-.hero-outer {
-    height: 100vh;
+.hero {
+    height: 90vh;
+    width: 100%;
     overflow: hidden;
     position: relative;
     background-color: #383838;
 }
-
-.hero-image {
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    background: url('../images/pexels-marcus-aurelius.jpg') no-repeat center center /cover;
+    background: url('../images/pexels-rfstudio-3820296.jpg') no-repeat center center /cover;
+    filter: brightness(60%);
+}
+
+.hero-content {
+    position: relative;
+    width: 36%;
+    margin-top: 15%;
+    margin-left: 2.5%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.hero-title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.hero-promo-text {
+    margin-top: 3.75rem;
+}
+
+.hero-btn {
+    margin-top: 1rem;
+    padding: .875rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 200;
+    text-transform: uppercase;  
+    letter-spacing: .125em;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #EF743C;
+    cursor: pointer;
 }
 
 /** Club Ethos and cards **/
