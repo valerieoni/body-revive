@@ -63,6 +63,17 @@ p {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.background-top {
+    height: 30vh;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-bottom: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 /******************************************
     HEADER AND MAIN NAVIGATION LINKS
 *******************************************/
