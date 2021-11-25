@@ -18,6 +18,9 @@ html, body {
     overflow-x: hidden;
 }
 
+/***********************************************
+    GENERAL ELEMENTS AND REUSABLE CLASSES
+************************************************/
 h1, h2, h3, h4, a:link {
     font-family: 'Montserrat', sans-serif;
 }
@@ -59,7 +62,6 @@ p {
 .grid-3-cols {
     grid-template-columns: repeat(3, 1fr);
 }
-
 
 /******************************************
     HEADER AND MAIN NAVIGATION LINKS
@@ -314,26 +316,60 @@ a:link {
 /***************************
         ABOUT SECTION 
  ***************************/
+
 .about-section {
     height: 90vh;
+    position: relative;
 }
 
 .about-image {
     height: 100%;
-    background: url('../images/pexels-thirdman-6958387.jpg') no-repeat top left /cover;
+    background: url('../images/pexels-thirdman-6958387.jpg') no-repeat center center /cover;
     position: relative;
-    filter: brightness(70%);
+    filter: brightness(80%);
 }
 
-.about-text {
-    width: 600px;
+.about-quote {
+    width: 32.25rem;
     color: #fff;
     position: absolute;
     right: 5%;
     top: 45%;
-    text-align:justify;
-    border-radius: 4px;
     padding: 5px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-blockquote {
+    font-size: 2.25rem;
+    line-height: 1.5em;
+    font-weight: 500;
+    position: relative;
+}
+
+.about-blockquote .fa-quote-left,
+.about-blockquote .fa-quote-right {
+    color: #c3c3c3;
+    font-size: 1.5rem;
+    position: absolute;
+    width: 5rem;
+}
+
+.about-blockquote .fa-quote-left {
+    left: -2.5rem;
+}
+
+.about-blockquote .fa-quote-right {
+    right: 3.725rem;
+}
+
+.about-quote cite {
+	line-height: 3;
+    font-size: 1.2rem;
+	font-weight: 500;
+    display: block;
+    width: 90%;
+    text-align: right;
+    text-decoration: underline;
 }
 
 .about-content {
