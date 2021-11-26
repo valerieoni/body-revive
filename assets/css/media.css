@@ -71,18 +71,6 @@
         text-align: center;
     }
 
-       /*** contact ***/
-       .signup-section {
-            background: none;
-        }
-
-        .signup-form {
-            position: static;
-            margin: 20px 30px;
-            background-color: rgba(60, 60, 60, 0.7);
-            padding: 30px;
-        }
-        
   }
 
   /********************************************

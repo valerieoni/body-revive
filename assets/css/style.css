@@ -63,15 +63,38 @@ p {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.background-top {
-    height: 30vh;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+.background-outer {
+    height: 36vh;
     margin-bottom: 6.25rem;
+    background-color: #3f87a6;
+    position: relative;
+}
+
+.background-inner {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 23%, 10% 95%, 4% 100%, 0 100%);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.background-outer-content {
+    position: absolute;
+    top: 40%;
+    right: 45%;
+}
+
+.background-outer-content h2 {
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+.container-center {
+    width: 100%;
+    min-height: 30vh;
     display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 /******************************************
@@ -402,42 +425,38 @@ a:link {
      CONTACT | SIGNUP SECTION 
 ***********************************/
 /* Form */
-
-.signup-section {
-    background: url('../images/pexels-karolina-grabowska-4498195.jpg') no-repeat left top, url('../images/contact-bg.png') no-repeat center center /cover;
-    height: 96vh;
-}
-
 .signup-form {
-    margin: 150px 0 0 20px;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    right: 10%;
-    padding: 30px;
+    background: white;
+    min-width: 50%;
+    margin: 30px auto 100px;
+    padding:  1.925rem;
+    box-shadow: 0 3px 6px 0 rgba(23,25,51,.08),0 16px 32px 0 rgba(23,25,51,.6);
 }
 
-.signup-form > h2 {
-    color: #fafafa;
+.signup-input {
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: .5rem 1.25rem;
+    background-color: white;
+    min-height: 2.625rem;
+    line-height: 1.25rem;
+    font-size: 1.2rem;
+    border: 1px solid #e1e2eb;
+    border-radius: 3px;
+    box-shadow: inset 0 2px 4px 0 rgba(206,209,224,.2);
     margin-bottom: 20px;
 }
 
-.text-input {
-    width: 100%;
-    min-height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+.signup-input:hover {
+    border-color: #EF743C;
 }
 
 .flex-2-column {
     display: flex;
+    justify-content: space-between;
     gap: 10px;
-}
-
-.text-input:hover {
-    border-color: #EF743C;
 }
 
 .join-button {
@@ -450,6 +469,7 @@ a:link {
     background-color: #EF743C;
     color: #ffffff;
     display: block;
+    cursor: pointer;
 }
 
 .large-button {
@@ -463,12 +483,6 @@ a:link {
     font-size: 0.8rem;
     box-sizing: border-box;
 }
-
-.join-button:hover {
-    background-color: #fafafa;
-    color: #EF743C;
-}
-
 
 /***********************
     CLASSES SECTION
