@@ -53,7 +53,13 @@ The site is targeted at people with busy schedule as well as beginners curious a
 - Testimonials
 - Resources - multimedia and information on Yoga
 
-As a result of time constraint the Resources page which is meant to provide additional information to users was not implemented but this can be reviewed and included in future.
+    ### Features Not Implemented
+
+    As a result of time constraint the following features were not implemented:
+    - Resources page which is meant to provide additional information to users
+    - more testimonial added on the homepage and the ability to scroll through the available testimonials.
+    
+    In the future these can be reviewed and included in the site.
 
 ## Technologies Used
 
