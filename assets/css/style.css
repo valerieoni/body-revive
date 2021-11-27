@@ -49,20 +49,6 @@ p {
     margin: 3.2rem auto;
 }
 
-.grid {
-    display: grid;
-    row-gap: 64px;
-    column-gap: 30px;
-  }
-
-.grid-2-cols {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-3-cols {
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .background-outer {
     height: 36vh;
     margin-bottom: 6.25rem;
@@ -489,7 +475,7 @@ a:link {
 ***********************/
 
 .yoga-text {
-    width: 60%;
+    width: 70%;
     text-align: justify;
     margin: 10px auto;
 }
@@ -503,18 +489,52 @@ a:link {
     text-align: center;
 }
 
-.class-schedule h3,
-.class-schedule p {
-    padding-right: 9rem;
+.class-schedule--badge {
+    position: relative;
 }
 
-.class-schedule p {
-    text-align: justify;
-    font-size: 1rem;
-    line-height: 1.5em;
+span.levels, span.duration {
+    position: absolute;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 4px 8px 5px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    height: 16px;
 }
 
-/** FOOTER **/
+span.levels {
+    left: 4px;
+}
+
+span.duration {
+    right: -42px;   
+}
+
+.class-info {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.grid-container {
+   width: 75vw;
+   margin: 0px auto 50px;
+   display: grid;
+   grid-template-columns: 300px 300px 300px;
+   row-gap: 80px;
+   column-gap: 80px;
+   -moz-column-gap: 80px;
+   -webkit-column-gap: 80px;
+   justify-content: space-between;
+   align-content: center;
+  }
+
+
+/******************************
+         FOOTER SECTION
+*******************************/
 footer {
     background-color: #383838;
     text-align: center;
