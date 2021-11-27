@@ -88,7 +88,7 @@ The site is targeted at people with busy schedule as well as beginners curious a
     - Pixabay was also used to sourcing images used for the website
 - [UNPKG:](https://unpkg.com/)
     - UNPKG used for unpacking svg files used on the home page.
-- [AM I RESPONSIVE] (http://ami.responsivedesign.is/)
+- [AM I RESPONSIVE](http://ami.responsivedesign.is/)
     - used to show off the responsive design across the different devices.
 
 
