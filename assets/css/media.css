@@ -71,6 +71,22 @@
         text-align: center;
     }
 
+     /*** contact form ***/
+    .flex-2-column {
+        flex-direction: column !important;
+        -ms-flex-direction: column;
+    }
+
+    .background-outer-content h2 {
+        font-size: 100%;
+    }
+
+    
+    .grid-container {
+        grid-template-columns: 300px;
+    }
+    
+
   }
 
   /********************************************
@@ -105,13 +121,5 @@
         width: 75%;
         padding: 64px 42px;
     }
-
-  
-    /*** classes ***/
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto;
-        padding: 10px;
-      }
 
 }
