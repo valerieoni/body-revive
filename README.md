@@ -1,6 +1,6 @@
 <h1 align="center">Body Revive Yoga Website</h1>
 
-[View the live project here.](valerieoni.github.io/body-revive/)
+[View the live project here.](https://valerieoni.github.io/body-revive/)
 
 body-revive website is a yoga studio website that offers online Hatha yoga classes to accommodate users’ schedule, allowing them to practice anywhere and whenever they want.
 
