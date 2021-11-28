@@ -551,6 +551,10 @@ footer ul li {
     margin-right: 50px;
 }
 
+footer ul li:last-child{
+    margin-right: 0;
+}
+
 footer a:link, footer a:visited, footer a:active {
     color: #EF743C
 }
