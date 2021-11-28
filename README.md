@@ -1,6 +1,6 @@
 <h1 align="center">Body Revive Yoga Website</h1>
 
-[View the live project here.](valerieoni.github.io/body-revive/)
+[View the live project here.](https://valerieoni.github.io/body-revive/)
 
 body-revive website is a yoga studio website that offers online Hatha yoga classes to accommodate users’ schedule, allowing them to practice anywhere and whenever they want.
 
@@ -70,24 +70,26 @@ The site is targeted at people with busy schedule as well as beginners curious a
 
 ### Frameworks, Libraries & Programs Used
 
-1. [GitHub:](https://github.com/)
+- [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-2. [Git](https://git-scm.com/)
+- [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-3. [Balsamiq:](https://balsamiq.com/)
+- [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
-4. [Google Fonts:](https://fonts.google.com/)
+- [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-5. [Font Awesome:](https://fontawesome.com/)
+- [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used to add icons.
-6. [Birme:](https://www.birme.net/)
+- [Birme:](https://www.birme.net/)
     - Birme was used to resize and edit images for the website
-7. [Pexel:](https://www.pexels.com/)
+- [Pexel:](https://www.pexels.com/)
     - Pexel was used to sourcing images used for the website
-8. [Pixabay:](https://pixabay.com/)
+- [Pixabay:](https://pixabay.com/)
     - Pixabay was also used to sourcing images used for the website
-9. [UNPKG:](https://unpkg.com/)
+- [UNPKG:](https://unpkg.com/)
     - UNPKG used for unpacking svg files used on the home page.
+- [AM I RESPONSIVE](http://ami.responsivedesign.is/)
+    - used to show off the responsive design across the different devices.
 
 
 ## Testing
