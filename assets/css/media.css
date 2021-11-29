@@ -1,8 +1,15 @@
 
 
   /**************************************
-           MOBILE DEVICE
+           MOBILE DEVICES
    ***************************************/
+   @media (max-width: 1028px) {
+    .grid-container {
+        grid-template-columns: 300px 300px;
+    }
+   }
+
+
 
    @media (max-width: 844px) {
     /*** header ***/
@@ -63,6 +70,10 @@
        }
 
        /**** hero section ***/
+       .hero-btn {
+        font-weight: 600;
+       }
+
        .hero-content {
         transform: scale(0.8);
         width:80%;
@@ -81,16 +92,14 @@
         font-size: 100%;
     }
 
-    
-    .grid-container {
+    /***** classses **********/
+     .grid-container {
         grid-template-columns: 300px;
     }
-    
-
   }
 
   /********************************************
-    BELOW 900px screen
+            BELOW 900px screen
   *******************************************/
   @media (max-width: 900px) {
     .ethos {
@@ -122,4 +131,45 @@
         padding: 64px 42px;
     }
 
+    /*** About page *******/
+    .about-section::before {
+        background: url('../images/pexels-thirdman-6958387-mobile.jpg') no-repeat center center /cover;
+    }
+}
+
+ /************************************
+        small screen 480px and below
+ ************************************/
+@media (max-width: 480px) {
+    .content-text {
+     padding-right: 10px;
+     padding-left: 10px;
+    }
+
+    .ethos {
+        margin: 24px auto auto;
+    }
+
+        
+    .about-quote {
+        width: 300px;
+    }
+
+    .about-blockquote {
+        font-size: 1.5rem;
+    }
+
+    .about-blockquote .fa-quote-left,
+    .about-blockquote .fa-quote-right {
+        font-size: 1.2rem;
+        width: 2rem;
+    }
+
+    .about-blockquote .fa-quote-left {
+        left: -1.5rem;
+    }
+
+    .about-blockquote .fa-quote-right {
+        right: 1.5rem;
+    }
 }
