@@ -6,6 +6,7 @@
    @media (max-width: 1028px) {
     .grid-container {
         grid-template-columns: 300px 300px;
+        justify-content: center;
     }
    }
 
@@ -91,11 +92,6 @@
     .background-outer-content h2 {
         font-size: 100%;
     }
-
-    /***** classses **********/
-     .grid-container {
-        grid-template-columns: 300px;
-    }
   }
 
   /********************************************
@@ -140,7 +136,7 @@
  /************************************
         small screen 480px and below
  ************************************/
-@media (max-width: 480px) {
+@media (max-width: 540px) {
     .content-text {
      padding-right: 10px;
      padding-left: 10px;
@@ -149,7 +145,6 @@
     .ethos {
         margin: 24px auto auto;
     }
-
         
     .about-quote {
         width: 300px;
@@ -171,5 +166,12 @@
 
     .about-blockquote .fa-quote-right {
         right: 1.5rem;
+    }
+
+    
+    /***** classses **********/
+    .grid-container {
+        grid-template-columns: 300px;
+        justify-content: center;
     }
 }
