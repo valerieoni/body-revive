@@ -88,6 +88,26 @@ p {
     min-height: 30vh;
     margin: 50px auto;
 }
+
+.main-bg {
+    height: 48vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #383838;
+}
+
+.about-section::before, .class-section::before,  .contact-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: brightness(80%); /* Chrome, Safari, Opera */
+    filter: brightness(80%);
+}
+
 /******************************************
     HEADER AND MAIN NAVIGATION LINKS
 *******************************************/
@@ -158,7 +178,7 @@ a:link {
     HERO SECTION
 ***************************/
 /** hero image **/
-.hero-bg {
+.hero {
     height: 90vh;
     width: 100%;
     overflow: hidden;
@@ -174,6 +194,7 @@ a:link {
     width: 100%;
     height: 100%;
     background: url('../images/pexels-rfstudio-3820296.jpg') no-repeat center center /cover;
+    -webkit-filter: brightness(60%); /* Chrome, Safari, Opera */
     filter: brightness(60%);
 }
 
@@ -343,19 +364,8 @@ a:link {
 /***************************
         ABOUT SECTION 
  ***************************/
-.about-section {
-    height: 48vh;
- }
-
 .about-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     background: url('../images/pexels-thirdman-6958387.jpg') no-repeat center 20% /cover;
-    filter: brightness(80%);
 }
 
 .about-quote {
@@ -420,6 +430,11 @@ a:link {
 /**********************************
      CONTACT | SIGNUP SECTION 
 ***********************************/
+.contact-section::before {
+    background: url('../images/tablet-ga6a3e85be_1920.jpg') no-repeat center center /cover;
+}
+
+
 /* Form */
 .signup-form {
     background: white;
@@ -431,6 +446,7 @@ a:link {
 
 .signup-input {
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -483,6 +499,10 @@ a:link {
 /***********************
     CLASSES SECTION
 ***********************/
+.class-section::before {
+    background: url('../images/pexels-yan-krukov.jpg') no-repeat center center /cover;
+}
+
 .yoga-classes-text h2 {
     color: #0468bf;
     text-align: center;
