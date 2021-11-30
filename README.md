@@ -24,7 +24,7 @@ The site is targeted at people with busy schedule as well as beginners curious a
         - As a Returning Visitor, I want to sign up for classes.
         - As a Returning Visitor, I want to find the best way to get in contact with the instructors with any questions I may have.
    
--   #### Frequent Users Goals
+    -   #### Frequent Users Goals
         - As a Frequent Visitor, I want to sign up for classes and take part in the class signed up for.
         - As a Frequent Visitor, I want to successfully get in contact with the admin or instructors with any questions or challenges I may have.
 
@@ -46,7 +46,7 @@ The site is targeted at people with busy schedule as well as beginners curious a
 
 ## Features
 
-- Teacher's profile
+- Instructor's profile
 - classes offered, price and Course discount information (if available)
 - Contact form
 - Social media links
@@ -96,7 +96,7 @@ The site is targeted at people with busy schedule as well as beginners curious a
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](docs/W3C_CSS_Validator_results.pdf)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](docs/W3C_Validator_results.pdf)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](docs/W3C_CSS_Validator_results.pdf)
 
 
@@ -133,11 +133,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         - The navigation bar clearly highlights the "Contact Us" Page.
         - Here they can fill out the form on the page and are given a feedback that they will be contacted.
         - The footer contains links to the organisations Facebook, Twitter and Instagram page which all open on a new tab to ensure the user can easily get back to the website.
-   
-
-### Known Bugs
-
--   On some mobile devices the classes are not aligned to the center of the page as expected.
    
 
 ## Deployment
@@ -192,7 +187,11 @@ $ git clone https://github.com/valerieoni/body-revive.git
 
 ### Media
 
--   All Images were sourced from [pexel](https://www.pexels.com/) and [pixabay](https://pixabay.com/).
+-   All Images were sourced from [pexel](https://www.pexels.com/) and [pixabay](https://pixabay.com/). Some of the images used are:
+    -   Home Page - [Photo by RF._.studio from Pexels](https://www.pexels.com/photo/woman-in-black-tank-top-and-black-leggings-sitting-on-floor-3820296/)
+    -   About Us Image - [Photo by Thirdman from Pexels](https://www.pexels.com/photo/woman-in-black-sports-bra-and-leggins-posing-on-yoga-mat-6958387/)
+    -   Class Page - [Photo by Yan Krukov from Pexels](https://www.pexels.com/photo/people-in-fitness-clothes-doing-yoga-8436574/)
+    -   Contact Us Image -[Photo by cottonbro from Pexels](https://www.pexels.com/photo/person-in-blue-long-sleeve-shirt-holding-black-smartphone-5053766/)
 
 ### Acknowledgements
 

@@ -136,10 +136,14 @@
  /************************************
         small screen 480px and below
  ************************************/
-@media (max-width: 540px) {
+@media only screen and (max-width: 540px) {
     .content-text {
      padding-right: 10px;
      padding-left: 10px;
+    }
+
+    .main-bg {
+        height: 35vh;
     }
 
     .ethos {
@@ -167,11 +171,11 @@
     .about-blockquote .fa-quote-right {
         right: 1.5rem;
     }
-
     
     /***** classses **********/
     .grid-container {
         grid-template-columns: 300px;
         justify-content: center;
     }
+    
 }
