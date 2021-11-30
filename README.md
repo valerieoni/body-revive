@@ -143,7 +143,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 -   In the GitHub repository, navigate to the Settings tab
 -   Scroll down the Settings page until you locate the "GitHub Pages" Section.
--   Under "Source", click the dropdown called "None" and select "Master Branch".
+-   Under "Source", click the dropdown called **none** and select **main** Branch.
 -   Once the master branch has been selected, the page will be automatically refreshed.
 -   Upon refreshing the page the user is informed that the site has been successfully published with a link to the published site.
 
