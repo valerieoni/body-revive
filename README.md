@@ -151,7 +151,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 ### Making a Local Clone
 
 1. Locate the [body-revive Repository](https://github.com/valerieoni/body-revive)
-2. click the `Code ` dropdown arrow
+2. click the `Code` dropdown arrow
 3. To clone the repository using HTTPS, copy the [link](https://github.com/valerieoni/body-revive.git) 
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
@@ -165,11 +165,13 @@ $ git clone https://github.com/valerieoni/body-revive.git
 
 ```
 $ git clone https://github.com/valerieoni/body-revive.git
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
+> Cloning into 'body-revive'...
+> remote: Enumerating objects: 368, done.
+> remote: Counting objects: 100% (368/368), done.
+> remote: Compressing objects: 100% (243/243), done.
+> remote: Total 368 (delta 172), reused 278 (delta 94), pack-reused 0
+> Receiving objects: 100% (368/368), 3.70 MiB | 2.79 MiB/s, done.
+> Resolving deltas: 100% (172/172), done.
 ```
 
 ## Credits
